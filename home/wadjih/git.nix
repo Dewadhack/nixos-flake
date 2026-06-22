@@ -3,9 +3,9 @@
 {
   programs.git = {
     enable = true;
-    userName = "Dewadhack";
-    userEmail = "wadjih@local";
-    extraConfig = {
+    settings = {
+      user.name = "Dewadhack";
+      user.email = "wadjih@local";
       init.defaultBranch = "master";
       pull.rebase = false;
     };
