@@ -8,6 +8,10 @@
     ../../modules/networking/default.nix
     ../../modules/desktop/default.nix
     ../../modules/audio/default.nix
+    
+    ../../profiles/base.nix
+    ../../profiles/dev.nix
+    ../../profiles/performance.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
