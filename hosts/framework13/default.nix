@@ -12,6 +12,7 @@
     ../../profiles/base.nix
     ../../profiles/dev.nix
     ../../profiles/performance.nix
+    ../../modules/hardware/fingerprint.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
