@@ -1,13 +1,12 @@
 { ... }:
 
 {
-  services.xserver.enable = true;
-
-  services.displayManager.gdm.enable = true;
-  services.desktopManager.gnome.enable = true;
+  imports = [ ./hyprland.nix ];
 
   services.xserver.xkb = {
     layout = "fr";
     variant = "azerty";
   };
+
+  console.keyMap = "fr";
 }
